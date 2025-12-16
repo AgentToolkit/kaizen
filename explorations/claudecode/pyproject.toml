@@ -1,0 +1,13 @@
+[project]
+name = "claudecode"
+version = "0.1.0"
+description = "Experiment with Claude Code setup"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arize-phoenix>=12.25.1",
+    "litellm[proxy]>=1.80.10",
+    "opentelemetry-api>=1.39.1",
+    "opentelemetry-exporter-otlp>=1.39.1",
+    "opentelemetry-sdk>=1.39.1",
+]
